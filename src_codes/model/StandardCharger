@@ -1,0 +1,19 @@
+
+package model;
+
+// StandardCharger inherits from Charger
+public class StandardCharger extends Charger {
+
+    // Constructor
+    public StandardCharger(String chargerId, double chargingPower) {
+        super(chargerId, chargingPower);
+    }
+
+    // Display standard charger details
+    @Override
+    public void displayChargerDetails() {
+        System.out.println("Charger Type: Standard Charger");
+        System.out.println("Charger ID: " + getChargerId());
+        System.out.println("Charging Power: " + getChargingPower() + " kW");
+    }
+}

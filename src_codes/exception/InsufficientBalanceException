@@ -1,0 +1,27 @@
+
+package exception;
+
+// Thrown when the EV owner's wallet balance is insufficient
+public class InsufficientBalanceException extends Exception {
+
+    private final double currentBalance;
+    private final double requiredAmount;
+
+    public InsufficientBalanceException(double currentBalance, double requiredAmount) {
+
+        super(String.format(
+                "Payment Declined: Balance (Rs %.2f) is less than required fee (Rs %.2f)",
+                currentBalance, requiredAmount));
+
+        this.currentBalance = currentBalance;
+        this.requiredAmount = requiredAmount;
+    }
+
+    public double getCurrentBalance() {
+        return currentBalance;
+    }
+
+    public double getRequiredAmount() {
+        return requiredAmount;
+    }
+}
