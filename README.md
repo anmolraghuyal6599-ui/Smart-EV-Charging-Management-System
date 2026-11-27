@@ -4,11 +4,11 @@
 
 ## 📌 About the Project
 
-The **Smart EV Charging Station Management System** is a Java-based application developed to manage and organize electric vehicle charging station operations.
+The **Smart EV Charging Station Management System** is a Java-based application designed to manage and organize electric vehicle charging station operations.
 
-With the increasing adoption of electric vehicles, managing charging stations, vehicle information, charging-point availability, and transactions efficiently has become important.
+With the increasing adoption of electric vehicles, efficiently managing charging stations, vehicle information, charging-point availability, and transactions has become important.
 
-This project aims to provide a structured software solution for managing EV owners, vehicles, charging stations, charging sessions, and billing operations. It also incorporates multithreading, file handling, exception handling, and client-server communication to improve system reliability and operational efficiency.
+This project provides a structured solution for managing EV owners, vehicles, charging stations, charging sessions, and billing operations. It also incorporates multithreading, file handling, exception handling, and client-server communication.
 
 ## 🎯 Objectives
 
@@ -30,9 +30,9 @@ This project aims to provide a structured software solution for managing EV owne
 - **Exception Handling:** Handle invalid operations, unavailable ports, and insufficient balances.
 - **Multithreading:** Execute charging sessions concurrently.
 - **File Handling:** Store receipts, generate reports, and create backups.
-- **Socket Programming:** Enable TCP-based communication between the charging station client and central server.
+- **Socket Programming:** Enable TCP-based communication between the client and central server.
 
-## 🏗️ Technologies Used
+## 🛠️ Technologies Used
 
 - **Programming Language:** Java
 - **Core Concepts:** Object-Oriented Programming, Inheritance, Polymorphism, Abstraction and Encapsulation
@@ -43,8 +43,6 @@ This project aims to provide a structured software solution for managing EV owne
 - **Version Control:** Git and GitHub
 
 ## 📂 Project Architecture
-
-The application follows a modular package-based architecture:
 
 | Package | Responsibility |
 |---|---|
@@ -67,9 +65,9 @@ The application follows a modular package-based architecture:
 
 ## 🧪 Testing
 
-The Phase II implementation includes testing of:
+The implementation includes testing of:
 
-- Driver and vehicle registration.
+- Owner and vehicle registration.
 - Charging station and port availability.
 - Charging session execution.
 - Double-booking prevention.
@@ -89,17 +87,3 @@ The project supports the broader adoption of electric mobility by providing a so
 - Enhanced charging analytics and reporting.
 - Improved station monitoring and management.
 - Integration with physical EV charging infrastructure.
-
-## 👥 Project Team
-
-**Group 16 | NIET | B.Tech CSE (AIML)**
-
-- Anmol Raghuyal – Team Lead, Architecture and Integration
-- Anubhav Singh – Java Integration and Service Layer
-- Aradhya Pandey – System Design, Multithreading and Networking
-- Aaradhy Sinha – Exceptions and File Handling
-- Aryan Shukla – Testing, Validation and Documentation
-
----
-
-**Developed as an academic capstone project for Object Oriented Techniques using Java (CCSE0355) at Noida Institute of Engineering and Technology (NIET).**
